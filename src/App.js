@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import './App.css';
 // import ClassCounter from './components/ClassCounter'
 // import HookCounter from './components/HookCounter'
@@ -10,21 +10,28 @@ import './App.css';
 // import MouseContainer from './components/MouseContainer'
 // import IntervalHookCounter from './components/IntervalHookCounter'
 // import DataFetching from './components/DataFetching'
+// import Counter from './components/Counter'
 // import CounterOne from './components/CounterOne'
 // import CounterTwo from './components/CounterTwo'
 // import CounterThree from './components/CounterThree'
 // // import ComponentA from './components/ComponentA'
 // // import ComponentB from './components/ComponentB'
 // // import ComponentC from './components/ComponentC'
-import DataFetchingOne from './components/DataFetchingOne'
+// import DataFetchingOne from './components/DataFetchingOne'
+// import DataFetchingTwo from './components/DataFetchingTwo'
+import FocusInput from './components/FocusInput'
+import HookTimer from './components/HookTimer'
+import DocTitleOne from './components/DocTitleOne'
+import DocTitleTwo from './components/DocTitleTwo'
 
 
 
 function App() {
   return (
     <div>
-      <DataFetchingOne/>
-    </div>
+      <DocTitleOne/>
+      <DocTitleTwo/>
+      </div>
   )
 }
 
